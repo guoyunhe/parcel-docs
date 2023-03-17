@@ -5,10 +5,6 @@ import { Command } from 'commander';
 const program = new Command('create-react-lib');
 
 program
-  .argument(
-    '[project]',
-    'Folder name for the created project. If not provided, use current folder name.'
-  )
   .option(
     '--package-version <version>',
     'Initial package version number, 1.0.0 by default'
