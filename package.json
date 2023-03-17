@@ -1,5 +1,5 @@
 {
-  "name": "create-parcel",
+  "name": "parcel-docs",
   "version": "1.0.0",
   "description": "",
   "type": "module",
@@ -12,10 +12,16 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "parcel": "^2.8.3"
+    "@tsconfig/node18-strictest": "^1.0.0",
+    "@types/node": "^18.0.0",
+    "parcel": "^2.8.3",
+    "typescript": "^5.0.2"
   },
   "dependencies": {
     "commander": "^10.0.0",
     "sort-package-json": "^2.4.1"
+  },
+  "peerDependencies": {
+    "parcel": "^2.0.0"
   }
 }
