@@ -1,5 +1,9 @@
 # Build output
+build
 dist
+
+# Cache and temp files
+.parcel-cache/
 
 # Coverage directory
 coverage

@@ -1,7 +1,6 @@
 #!/usr/bin/env node
 
 import { Command } from 'commander';
-import { createProject } from '..';
 
 const program = new Command('create-react-lib');
 
@@ -14,7 +13,9 @@ program
     '--package-version <version>',
     'Initial package version number, 1.0.0 by default'
   )
-  .action(createProject);
+  .action(() => {
+    console.log('hi');
+  });
 
 program.helpOption('-h, --help', 'Show full help');
 
