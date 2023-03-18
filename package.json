@@ -5,6 +5,7 @@
   "type": "module",
   "main": "dist/index.js",
   "source": "src/index.ts",
+  "bin": "dist/index.js",
   "scripts": {
     "build": "parcel build",
     "watch": "parcel watch"
@@ -22,7 +23,11 @@
     "typescript": "^5.0.2"
   },
   "dependencies": {
+    "@parcel/config-default": "^2.8.3",
+    "@parcel/core": "^2.8.3",
+    "@parcel/fs": "^2.8.3",
     "commander": "^10.0.0",
+    "process": "^0.11.10",
     "sort-package-json": "^2.4.1"
   },
   "peerDependencies": {

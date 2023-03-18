@@ -4,6 +4,7 @@ dist
 
 # Cache and temp files
 .parcel-cache/
+.parcel-docs/
 
 # Coverage directory
 coverage
